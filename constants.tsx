@@ -1,32 +1,32 @@
-
 import React from 'react';
 import type { ScheduleItem, LinkItem } from './types';
 
-const TelegramIcon: React.FC<{className?: string}> = ({className}) => (
+const RecordingsIcon: React.FC<{className?: string}> = ({className}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
-    <path d="M11.886 1.012c.704-.543 1.545-.543 2.25 0l8.115 6.25c.421.324.65.818.65 1.332V19.5a2.25 2.25 0 0 1-2.25 2.25h-4.5a.75.75 0 0 1-.75-.75V16.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 1-.75.75h-4.5a2.25 2.25 0 0 1-2.25-2.25V8.594c0-.514.229-1.008.65-1.332l8.115-6.25Z" />
+    <path d="M12 6a6 6 0 100 12 6 6 0 000-12zm0 10a4 4 0 110-8 4 4 0 010 8z" />
+    <path d="M12 3a9 9 0 00-9 9 1 1 0 002 0 7 7 0 117 7 1 1 0 000 2 9 9 0 009-9 9 9 0 00-9-9z" />
   </svg>
 );
 
 
-const BookOpenIcon: React.FC<{className?: string}> = ({className}) => (
+const SpiritualQuoteIcon: React.FC<{className?: string}> = ({className}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
-    <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM9.823 15.345a.75.75 0 0 1 1.053-.018l1.75 1.5a.75.75 0 0 0 1.072-.01l3.5-3.25a.75.75 0 0 0-1.04-1.08l-3.01 2.78-1.22-1.047a.75.75 0 0 0-1.072.01l-1.75 1.5a.75.75 0 0 0-.01 1.072z" clipRule="evenodd" />
+    <path d="M12 2l2.35 7.18H22l-6 4.36 2.35 7.18L12 16.36l-6.35 4.36 2.35-7.18-6-4.36h7.65L12 2z" />
   </svg>
 );
 
-const HeartIcon: React.FC<{className?: string}> = ({className}) => (
+const SupportIcon: React.FC<{className?: string}> = ({className}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
-    <path d="M11.645 20.91a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06l7.5 7.5a.75.75 0 0 1-1.06 1.06l-7.5-7.5a.75.75 0 1 1 1.06-1.06l7.5 7.5Z" />
-    <path d="m19.5 9.75-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 15.689l7.97-7.97a.75.75 0 0 1 1.06 1.06Z" />
-    <path fillRule="evenodd" d="M12 21.75c-5.94 0-10.75-4.81-10.75-10.75S6.06 1.25 12 1.25s10.75 4.81 10.75 10.75-4.81 10.75-10.75 10.75ZM12 3a8.75 8.75 0 1 0 0 17.5A8.75 8.75 0 0 0 12 3Z" clipRule="evenodd" />
+    <path d="M12 12.75c-1.3 0-2.4-1.1-2.4-2.4s1.1-2.4 2.4-2.4 2.4 1.1 2.4 2.4-1.1 2.4-2.4 2.4z"/>
+    <path d="M20.19 10.3c.06-.43.11-.87.11-1.31 0-5.18-4.21-9.38-9.38-9.38S1.54 3.81 1.54 9c0 .44.04.88.11 1.31L4.8 17.54c.48 1.25 1.68 2.08 3.03 2.08h8.34c1.35 0 2.55-.83 3.03-2.08l3.15-7.24zm-8.27 4.58c-1.8 0-3.26-1.46-3.26-3.26s1.46-3.26 3.26-3.26 3.26 1.46 3.26 3.26-1.46 3.26-3.26 3.26z"/>
   </svg>
 );
 
 
-const QuoteIcon: React.FC<{className?: string}> = ({className}) => (
+const WebsiteIcon: React.FC<{className?: string}> = ({className}) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
-    <path fillRule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0-2.863 3.62.75.75 0 0 1-1.5 0 5.25 5.25 0 0 1 5.25-5.25.75.75 0 0 1 .75.75v3.375c0 .621.504 1.125 1.125 1.125h2.25a.75.75 0 0 1 0 1.5h-2.25a2.625 2.625 0 0 1-2.625-2.625V7.5a2.25 2.25 0 0 0-2.25-2.25H6.75a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 .75.75Z" clipRule="evenodd" />
+     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.89 15.11c-2.4-.49-4.2-2.58-4.2-5.11s1.8-4.62 4.2-5.11L12 2.5l1.89 4.39c2.4.49 4.2 2.58 4.2 5.11s-1.8 4.62-4.2 5.11L12 21.5l-1.89-4.39z"/>
+     <ellipse cx="12" cy="12" rx="2.5" ry="5" transform="rotate(-60 12 12)"/>
   </svg>
 );
 
@@ -65,27 +65,27 @@ export const LINK_ITEMS: LinkItem[] = [
     title: 'Class Recordings',
     description: 'Catch up on any missed classes via our Telegram channel.',
     url: '#',
-    icon: <TelegramIcon className="w-8 h-8 text-rose-500" />
+    icon: <RecordingsIcon className="w-8 h-8 text-rose-300" />
   },
   {
     id: 2,
     title: 'Daily Spiritual Quotes',
     description: 'Receive daily inspiration and wisdom to guide your path.',
     url: '#',
-    icon: <QuoteIcon className="w-8 h-8 text-rose-500" />
+    icon: <SpiritualQuoteIcon className="w-8 h-8 text-rose-300" />
   },
   {
     id: 3,
     title: 'Support / Donation',
     description: 'Your generous support helps us continue our spiritual mission.',
     url: '#',
-    icon: <HeartIcon className="w-8 h-8 text-rose-500" />
+    icon: <SupportIcon className="w-8 h-8 text-rose-300" />
   },
    {
     id: 4,
     title: 'Visit Our Website',
     description: 'Explore more resources, articles, and information on our main site.',
     url: '#',
-    icon: <BookOpenIcon className="w-8 h-8 text-rose-500" />
+    icon: <WebsiteIcon className="w-8 h-8 text-rose-300" />
   }
 ];

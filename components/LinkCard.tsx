@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { LinkItem } from '../types';
 
@@ -18,16 +17,16 @@ const LinkCard: React.FC<LinkCardProps> = ({ item }) => {
       href={item.url}
       target="_blank" 
       rel="noopener noreferrer" 
-      className="group block bg-white/70 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-rose-100 transition-all duration-300 hover:shadow-xl hover:scale-[1.03] hover:border-rose-300"
+      className="group block bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-xl border border-white/10 transition-all duration-300 hover:bg-white/20 hover:shadow-rose-500/10 hover:scale-[1.03]"
     >
       <div className="flex items-start space-x-4">
-        <div className="bg-rose-100 p-3 rounded-full">
+        <div className="bg-black/20 p-3 rounded-full">
           {item.icon}
         </div>
         <div>
-          <h4 className="text-lg font-bold text-rose-800">{item.title}</h4>
-          <p className="text-amber-800 text-sm mt-1">{item.description}</p>
-          <div className="inline-flex items-center text-sm font-semibold text-rose-600 mt-4">
+          <h4 className="text-lg font-bold text-stone-100 font-serif">{item.title}</h4>
+          <p className="text-stone-300 text-sm mt-1">{item.description}</p>
+          <div className="inline-flex items-center text-sm font-semibold text-amber-300 mt-4">
             Learn More
             <ArrowRightIcon />
           </div>
